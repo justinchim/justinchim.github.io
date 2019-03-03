@@ -4,10 +4,10 @@ padding:0;
 background:linear-gradient(
     rgba(0, 0, 0, 0.3),
     rgba(0, 0, 0, 0.3)
-  ), url(Maine.png);
-background-size:cover;
+  ), url(Banner.png) no-repeat 27vh;
+background-size:contain;
 height:100%;
-width:100%;
+width:100vw;
 position: relative;
 background-attachment:fixed;
 }
@@ -176,6 +176,9 @@ margin-top:100vh;
   @media(max-width:568px){
     .navbar-nav{display:none}
     .main-nav{display:none}
+    .text{
+      overflow:hidden;
+    }
   }
   
   @media(min-width:568px){
