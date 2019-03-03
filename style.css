@@ -147,6 +147,10 @@ margin-top:100vh;
     background-repeat: no-repeat;
   }
 
+  #resume{
+    padding-left:16px;
+  }
+
   .main-nav li{
     list-style-type: none;
     text-align: center;
