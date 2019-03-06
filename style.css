@@ -12,6 +12,7 @@ position: relative;
 background-attachment:fixed;
 background-position: center;
 background-color: #ebe9e9;
+max-height: 100vh;
 }
 
 /*** Nav ***/
@@ -21,21 +22,24 @@ background-color: #ebe9e9;
   display:flex;
   justify-content: center;
   align-items: center;
-  flex-direction: column;
-  font-size: 29px;
+  flex-direction: row;
+  font-size: 56px;
   height: 500px;
   margin: 280px 345px 0 0;
   position: relative;
   animation-name: ex;
-  animation-duration: 4s;
-  animation-delay: 0.5s;
+  animation-duration: 3s;
   animation-iteration-count: 1;
   }
-  
+.ex span:hover{
+  transition: 1s;
+  color:#d9ff04;
+  transition-timing-function: ease-in-out;
+}
   @keyframes ex {
   0%{
   opacity:0;
-  left:-400px;
+  left:-200px;
   
   }
   100%{
@@ -79,11 +83,6 @@ background: #dad6d6;
     list-style:none;
   }
   
-  .navbar a:hover{
-    background-color:#ddd;
-    color:#000;
-  }
-  
   .side-nav{
     height:100%;
     width:0;
@@ -122,6 +121,7 @@ background: #dad6d6;
   .main-nav {
     top:20vh;
     position:fixed;
+    z-index: 1;
   }
 
   #dl{
@@ -162,11 +162,6 @@ background: #dad6d6;
     margin:0;
   }
 
-  #projects {
-    margin-top: 900px;
-
-  }
-
   /*** Font Awesome ***/
 
   /* Style all font awesome icons */
@@ -183,7 +178,7 @@ background: #dad6d6;
 }
 
 .fa-linkedin {
-  background: rgb(74, 116, 206);
+  background: rgb(24, 122, 235);
   color: white;
   padding:10px 5px;
 }
@@ -211,31 +206,53 @@ background: #dad6d6;
   @media(max-width:568px){
     .navbar-nav{display:none}
     .main-nav{display:none}
-    .text{
-      overflow:hidden;
-      width:100%;
+    #projects{
+      margin-top:50vh;
+    }
+
+    #projects .text2{
+      margin:0;
     }
 
     .ex{
-      display:none;
+      font-family: Helvetica;
+      display:flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: row;
+      font-size: 56px;
+      margin: 240px 140px 0 0;
+      position: relative;
+      animation-name: ex;
+      animation-duration: 3s;
+      animation-iteration-count: 1;
     }
+
+    #icons{
+      top:5vh;
+      position:fixed;
+      z-index: 1;
+      left:0;
+      opacity: 0.6;
+    }
+
+    .fa {
+      width: 10px;
+      height: 5px;
+      text-decoration: none;
+      margin-top: 36px;
+    }
+
+    #icons:hover{
+      opacity: 1;
+    }
+
   }
 
   @media(max-width:978px){
     .ex{
    font-size: 22px;
-    }
-  }
-
-  @media(max-width:860px){
-    .ex{
-   font-size: 12px;
-    }
-  }
-
-  @media(max-width:608px){
-    .ex{
-   font-size: 6px;
+   height: 400px;
     }
   }
   
