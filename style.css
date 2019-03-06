@@ -17,7 +17,7 @@ max-height: 100vh;
 
 /*** Nav ***/
 
-.ex{
+.animated{
   font-family: Helvetica;
   display:flex;
   justify-content: center;
@@ -27,15 +27,23 @@ max-height: 100vh;
   height: 500px;
   margin: 280px 345px 0 0;
   position: relative;
-  animation-name: ex;
-  animation-duration: 3s;
+  animation: ex 3s,moveBg 10s linear infinite;
+  -webkit-animation: ex 3s,moveBg 10s linear infinite;
   animation-iteration-count: 1;
+  background: url(lightning.jpg) no-repeat 80%;
+  background-clip:text;
+  -webkit-background-clip: text;
+  color:transparent;
   }
-.ex span:hover{
-  transition: 1s;
-  color:#d9ff04;
-  transition-timing-function: ease-in-out;
-}
+
+  @keyframes moveBg {
+    0%{
+      background-position: 0% 60%;
+    }
+    100%{
+      background-position: 100% 80%;
+    }
+  }
   @keyframes ex {
   0%{
   opacity:0;
@@ -214,7 +222,7 @@ background: #dad6d6;
       margin:0;
     }
 
-    .ex{
+    .animated{
       font-family: Helvetica;
       display:flex;
       justify-content: center;
