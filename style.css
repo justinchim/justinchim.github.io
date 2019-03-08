@@ -279,8 +279,8 @@ width:100%;
       font-size: 18px;
       margin: 110px 85px 0 0;
       position: relative;
-      animation: ex 3s,moveBg linear infinite;
-      -webkit-animation: ex 3s,moveBg linear infinite;
+      animation: ex 3s,moveBg 5s linear infinite;
+      -webkit-animation: ex 3s,moveBg 5s linear infinite;
     }
 
     #icons{
@@ -322,8 +322,8 @@ width:100%;
       font-size: 43px;
       margin: 205px 250px 0 0;
       position: relative;
-      animation: ex 3s,moveBg 10s linear infinite;
-      -webkit-animation: ex 3s,moveBg 10s linear infinite;
+      animation: ex 3s,moveBg 5s linear infinite;
+      -webkit-animation: ex 3s,moveBg 5s linear infinite;
     }
 
     #icons{
