@@ -239,16 +239,23 @@ background: #dad6d6;
 
 /*** Footer ***/
 .footer{
+  display:flex;
+  justify-content: center;
+  align-items: center;
   width:100%;
-  height:40px;
+  height:10%;
   bottom:0;
   background:#000;
   color:#fff;
   opacity:0.8;
   overflow: hidden;
-  text-align: center;
   margin:0;
-  padding:10px;
+  padding:0;
+  }
+
+  body article img{
+    margin:0;
+    padding:0;
   }
 
   @media(max-width:568px){
