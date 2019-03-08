@@ -43,7 +43,7 @@ max-height: 100vh;
     }
     50%{
       color:transparent;
-      background-position: 115% 80%;
+      background-position: 100% 80%;
     }
     100%{
       color:transparent;
@@ -347,6 +347,21 @@ background: #dad6d6;
        }
   }
 
+  @media(max-width:936px){
+    .animated{
+      font-family: Helvetica;
+      display:flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: row;
+      font-size: 44px;
+      margin: 330px 200px 0 0;
+      position: relative;
+      animation: ex 3s,moveBg 10s linear infinite;
+      -webkit-animation: ex 3s,moveBg 10s linear infinite;
+    }
+  }
+
   @media(max-width:768px){
     .animated{
       font-family: Helvetica;
@@ -354,8 +369,8 @@ background: #dad6d6;
       justify-content: center;
       align-items: center;
       flex-direction: row;
-      font-size: 38px;
-      margin: 205px 250px 0 0;
+      font-size: 34px;
+      margin: 300px 150px 0 0;
       position: relative;
       animation: ex 3s,moveBg 10s linear infinite;
       -webkit-animation: ex 3s,moveBg 10s linear infinite;
@@ -369,8 +384,8 @@ background: #dad6d6;
       justify-content: center;
       align-items: center;
       flex-direction: row;
-      font-size: 34px;
-      margin: 190px 250px 0 0;
+      font-size: 26px;
+      margin: 270px 95px 0 0;
       position: relative;
       animation: ex 3s,moveBg 10s linear infinite;
       -webkit-animation: ex 3s,moveBg 10s linear infinite;
@@ -384,8 +399,8 @@ background: #dad6d6;
       justify-content: center;
       align-items: center;
       flex-direction: row;
-      font-size: 32px;
-      margin: 275px 250px 0 0;
+      font-size: 24px;
+      margin: 275px 80px 0 0;
       position: relative;
       animation: ex 3s,moveBg 10s linear infinite;
       -webkit-animation: ex 3s,moveBg 10s linear infinite;
@@ -401,6 +416,112 @@ background: #dad6d6;
       flex-direction: row;
       font-size: 24px;
       margin: 275px 100px 0 0;
+      position: relative;
+      animation: ex 3s,moveBg 10s linear infinite;
+      -webkit-animation: ex 3s,moveBg 10s linear infinite;
+    }
+  }
+
+  @media(max-width:470px){
+    .animated{
+      font-family: Helvetica;
+      display:flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: row;
+      font-size: 22px;
+      margin: 260px 90px 0 0;
+      position: relative;
+      animation: ex 3s,moveBg 10s linear infinite;
+      -webkit-animation: ex 3s,moveBg 10s linear infinite;
+    }
+  }
+
+
+  @media(max-width:338px){
+    .animated{
+      font-family: Helvetica;
+      display:flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: row;
+      font-size: 20px;
+      margin: 235px 100px 0 0;
+      position: relative;
+      animation: ex 3s,moveBg 10s linear infinite;
+      -webkit-animation: ex 3s,moveBg 10s linear infinite;
+    }
+  }
+
+  @media(max-width:299px){
+    .animated{
+      font-family: Helvetica;
+      display:flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: row;
+      font-size: 16px;
+      margin: 235px 100px 0 0;
+      position: relative;
+      animation: ex 3s,moveBg 10s linear infinite;
+      -webkit-animation: ex 3s,moveBg 10s linear infinite;
+    }
+  }
+
+  @media(max-width:260px){
+    .animated{
+      font-family: Helvetica;
+      display:flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: row;
+      font-size: 12px;
+      margin: 235px 80px 0 0;
+      position: relative;
+      animation: ex 3s,moveBg 10s linear infinite;
+      -webkit-animation: ex 3s,moveBg 10s linear infinite;
+    }
+  }
+
+  @media(max-width:260px){
+    .animated{
+      font-family: Helvetica;
+      display:flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: row;
+      font-size: 12px;
+      margin: 235px 80px 0 0;
+      position: relative;
+      animation: ex 3s,moveBg 10s linear infinite;
+      -webkit-animation: ex 3s,moveBg 10s linear infinite;
+    }
+  }
+
+  @media(max-width:260px){
+    .animated{
+      font-family: Helvetica;
+      display:flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: row;
+      font-size: 12px;
+      margin: 235px 80px 0 0;
+      position: relative;
+      animation: ex 3s,moveBg 10s linear infinite;
+      -webkit-animation: ex 3s,moveBg 10s linear infinite;
+    }
+  }
+
+  @media(max-width:230px){
+    .animated{
+      font-family: Helvetica;
+      display:flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: row;
+      font-size: 12px;
+      margin: 270px 70px 0 0;
       position: relative;
       animation: ex 3s,moveBg 10s linear infinite;
       -webkit-animation: ex 3s,moveBg 10s linear infinite;
