@@ -211,6 +211,10 @@ width:100%;
     margin:0;
   }
 
+  #projects{
+    text-align: center;
+  }
+
   /*** Font Awesome ***/
 
   /* Style all font awesome icons */

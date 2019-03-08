@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  	<meta charset="UTF-8">
+  	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="description" content="Affordable Personal Training">
+    <meta name="keywords"  content="personal trainer, affordable personal training,">
+    <meta name="author" content="Justin Chim">
+  	<link rel="stylesheet" type="text/css" href="./css/temp.css">
+  	<title>Justin's | Home</title>
+  </head>
+  <body>
+  	<header>
+  		<nav class="navbar">
+  		    <span class="open-slide">
+  		      	<a href="#" onmouseover="openSlideMenu()">
+  		        <svg width="30" height="30">
+  		            <path d="M0,5 30,5" stroke="#fff" stroke-width="5"/>
+  		            <path d="M0,14 30,14" stroke="#fff" stroke-width="5"/>
+  		            <path d="M0,23 30,23" stroke="#fff" stroke-width="5"/>
+          		</svg>
+            </a>
+        		</span>
+        	</nav>
+        		<div id="side-menu" class="side-nav">
+      			<a href="#" class="btn-close" onclick="closeSlideMenu()">&times;</a>
+      			<a href="new.html">Home</a>
+      			<a href="about.html">About</a>
+      			<a href="services.html">Services</a>
+      			<a href="contact.html">Contact</a>
+    			</div>
+      </header>
+      <script>
+      function openSlideMenu(){
+        document.getElementById('side-menu').style.width = '125px';
+        document.getElementById('open-slide').style.marginLeft = '125px';
+      }
+
+      function closeSlideMenu(){
+        document.getElementById('side-menu').style.width = '0';
+        document.getElementById('open-slide').style.marginLeft = '0';
+      }
+    </script>
+        <div class="img1">
+      <div class="pictext">
+      <span class="border">
+        Justin's Personal Training
+      </span>
+      </div>
+    </div>
+
+    <section class="section, section-inverse">
+      <h1> Reach <em>your</em> goals. </h1>
+      <p> It all starts here! Sign up for our newsletter below to recieve a code for a free consultation.
+      </p>
+    </section>
+
+    <div class="img2">
+      <div class="pictext">
+      <span class="border trans">
+        We do it all!
+      </span>
+      </div>
+    </div>
+
+    <section class="section, section-inverse">
+      <p> <section id="newsletter">
+      <div class="container">
+        <h1> Subscribe To Our Newsletter</h1>
+        <form>
+          <input type="email" placeholder="Enter your email here">
+          <button type="submit" class="button">Subscribe</button>
+        </form>
+      </div>
+    </section>
+    </section>
+
+    <div class="img3">
+      <div class="pictext">
+      <span class="border trans">
+       Ask a specialist!
+      </span>
+      </div>
+    </div>
+
+    <div class="img1">
+      <div class="pictext">
+      <span class="border">
+        Justin's Personal Training
+      </span>
+      </div>
+    </div>
+  </body>
+  <footer>
+    <p> Justin's Personal Training &copy; 2019. All rights reserved.</p>
+  </footer>
+</html>
