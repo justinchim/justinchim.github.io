@@ -27,8 +27,8 @@ max-height: 100vh;
   height: 500px;
   margin: 280px 345px 0 0;
   position: relative;
-  animation: ex 3s,moveBg 7s linear infinite;
-  -webkit-animation: ex 3s,moveBg 7s linear infinite;
+  animation: ex 3s,moveBg 5s linear infinite;
+  -webkit-animation: ex 3s,moveBg 5s linear infinite;
   animation-iteration-count: 1;
   background: url(lightning.jpg) no-repeat 80%;
   background-clip:text;
@@ -39,11 +39,11 @@ max-height: 100vh;
   @keyframes moveBg {
     0%{
       color:transparent;
-      background-position: 0% 60%;
+      background-position: 0% 50%;
     }
     50%{
       color:transparent;
-      background-position: 100% 80%;
+      background-position: 100% 50%;
     }
     100%{
       color:transparent;
@@ -357,8 +357,8 @@ background: #dad6d6;
       font-size: 44px;
       margin: 330px 200px 0 0;
       position: relative;
-      animation: ex 3s,moveBg 10s linear infinite;
-      -webkit-animation: ex 3s,moveBg 10s linear infinite;
+      animation: ex 3s,moveBg 5s linear infinite;
+      -webkit-animation: ex 3s,moveBg 5s linear infinite;
     }
   }
 
@@ -372,8 +372,8 @@ background: #dad6d6;
       font-size: 34px;
       margin: 300px 150px 0 0;
       position: relative;
-      animation: ex 3s,moveBg 10s linear infinite;
-      -webkit-animation: ex 3s,moveBg 10s linear infinite;
+      animation: ex 3s,moveBg 5s linear infinite;
+      -webkit-animation: ex 3s,moveBg 5s linear infinite;
     }
   }
 
@@ -387,8 +387,8 @@ background: #dad6d6;
       font-size: 26px;
       margin: 270px 95px 0 0;
       position: relative;
-      animation: ex 3s,moveBg 10s linear infinite;
-      -webkit-animation: ex 3s,moveBg 10s linear infinite;
+      animation: ex 3s,moveBg 5s linear infinite;
+      -webkit-animation: ex 3s,moveBg 5s linear infinite;
     }
   }
 
@@ -402,8 +402,8 @@ background: #dad6d6;
       font-size: 24px;
       margin: 275px 80px 0 0;
       position: relative;
-      animation: ex 3s,moveBg 10s linear infinite;
-      -webkit-animation: ex 3s,moveBg 10s linear infinite;
+      animation: ex 3s,moveBg 5s linear infinite;
+      -webkit-animation: ex 3s,moveBg 5s linear infinite;
     }
   }
 
@@ -417,8 +417,8 @@ background: #dad6d6;
       font-size: 24px;
       margin: 275px 100px 0 0;
       position: relative;
-      animation: ex 3s,moveBg 10s linear infinite;
-      -webkit-animation: ex 3s,moveBg 10s linear infinite;
+      animation: ex 3s,moveBg 5s linear infinite;
+      -webkit-animation: ex 3s,moveBg 5s linear infinite;
     }
   }
 
@@ -432,8 +432,8 @@ background: #dad6d6;
       font-size: 22px;
       margin: 260px 90px 0 0;
       position: relative;
-      animation: ex 3s,moveBg 10s linear infinite;
-      -webkit-animation: ex 3s,moveBg 10s linear infinite;
+      animation: ex 3s,moveBg 5s linear infinite;
+      -webkit-animation: ex 3s,moveBg 5s linear infinite;
     }
   }
 
@@ -448,8 +448,8 @@ background: #dad6d6;
       font-size: 20px;
       margin: 235px 100px 0 0;
       position: relative;
-      animation: ex 3s,moveBg 10s linear infinite;
-      -webkit-animation: ex 3s,moveBg 10s linear infinite;
+      animation: ex 3s,moveBg 5s linear infinite;
+      -webkit-animation: ex 3s,moveBg 5s linear infinite;
     }
   }
 
@@ -463,8 +463,8 @@ background: #dad6d6;
       font-size: 16px;
       margin: 235px 100px 0 0;
       position: relative;
-      animation: ex 3s,moveBg 10s linear infinite;
-      -webkit-animation: ex 3s,moveBg 10s linear infinite;
+      animation: ex 3s,moveBg 5s linear infinite;
+      -webkit-animation: ex 3s,moveBg 5s linear infinite;
     }
   }
 
@@ -478,8 +478,8 @@ background: #dad6d6;
       font-size: 12px;
       margin: 235px 80px 0 0;
       position: relative;
-      animation: ex 3s,moveBg 10s linear infinite;
-      -webkit-animation: ex 3s,moveBg 10s linear infinite;
+      animation: ex 3s,moveBg 5s linear infinite;
+      -webkit-animation: ex 3s,moveBg 5s linear infinite;
     }
   }
 
@@ -493,8 +493,8 @@ background: #dad6d6;
       font-size: 12px;
       margin: 235px 80px 0 0;
       position: relative;
-      animation: ex 3s,moveBg 10s linear infinite;
-      -webkit-animation: ex 3s,moveBg 10s linear infinite;
+      animation: ex 3s,moveBg 5s linear infinite;
+      -webkit-animation: ex 3s,moveBg 5s linear infinite;
     }
   }
 
@@ -508,8 +508,8 @@ background: #dad6d6;
       font-size: 12px;
       margin: 235px 80px 0 0;
       position: relative;
-      animation: ex 3s,moveBg 10s linear infinite;
-      -webkit-animation: ex 3s,moveBg 10s linear infinite;
+      animation: ex 3s,moveBg 5s linear infinite;
+      -webkit-animation: ex 3s,moveBg 5s linear infinite;
     }
   }
 
@@ -523,8 +523,8 @@ background: #dad6d6;
       font-size: 12px;
       margin: 270px 70px 0 0;
       position: relative;
-      animation: ex 3s,moveBg 10s linear infinite;
-      -webkit-animation: ex 3s,moveBg 10s linear infinite;
+      animation: ex 3s,moveBg 5s linear infinite;
+      -webkit-animation: ex 3s,moveBg 5s linear infinite;
     }
   }
   
