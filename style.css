@@ -391,6 +391,21 @@ background: #dad6d6;
       -webkit-animation: ex 3s,moveBg 10s linear infinite;
     }
   }
+
+  @media(max-width:560px){
+    .animated{
+      font-family: Helvetica;
+      display:flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: row;
+      font-size: 24px;
+      margin: 275px 100px 0 0;
+      position: relative;
+      animation: ex 3s,moveBg 10s linear infinite;
+      -webkit-animation: ex 3s,moveBg 10s linear infinite;
+    }
+  }
   
   @media(min-width:568px){
     .navbar{display:none}
