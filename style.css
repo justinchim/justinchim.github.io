@@ -17,6 +17,12 @@ background-color: #ebe9e9;
 max-height: 100vh;
 }
 
+#projects h4, a{
+  margin:50px 0 0 0;
+  color: rgb(20, 37, 73);
+}
+
+
 .strike {
   text-decoration: line-through;
 }
