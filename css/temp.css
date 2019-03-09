@@ -176,7 +176,7 @@ header a:active{
   width:100%;
   text-align:center;
   color:#000;
-  font-size:27px;
+  font-size:1.4em;
   letter-spacing:8px;
   text-transform:uppercase;
 }
@@ -381,6 +381,12 @@ footer{
 @media(max-width:568px){
   .img1, .img2, .img3{
     background-attachment:scroll;
+
+  }
+  .pictext{
+    white-space: nowrap;
+    font-size: 70%;
+    
   }
     .navbar-nav{display:none}
 

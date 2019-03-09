@@ -1,0 +1,144 @@
+body {
+	margin:0;
+	padding:0;
+  background-image: 
+    linear-gradient(
+      rgba(0, 215, 15, 0.5),
+      rgba(0, 215, 15, 0.5)
+    ),
+    url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/3/shoes.jpg);
+	background-repeat: none;
+	background-size: cover;
+	width:100vw;
+	height:100vh;
+}
+
+.home{
+  border: 2px solid rgb(25, 153, 46);
+  height: 60px;
+  width: 110px;
+  text-align: center;
+  margin: 10px;
+  font-family: arial;
+  font-size: 12px;
+  position: fixed;
+  top:0;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+}
+
+.home h1, a{
+  text-decoration: none;
+  font-weight: normal;
+  list-style-type: none;
+  color: rgb(25, 153, 46);
+}
+
+.home:hover{
+  background:rgb(25, 153, 46);
+}
+
+h1:hover{
+  color:#fff;
+}
+
+form input{
+	background:#000;
+	color:#fff;
+	border:none;
+	margin:auto;
+	width:300px;
+	height:40px;
+	font-size: 15px;
+}
+
+form input::placeholder{
+	text-align:center;
+	padding-right: 55px;
+	font-size: 15px;
+}
+
+form input:focus{
+	color:lime;
+}
+
+form input:hover{
+	opacity:0.7;
+}
+
+* {box-sizing: border-box;}
+
+.input-container {
+  display: -ms-flexbox; /* IE10 */
+  display: flex;
+  width: 100%;
+  margin-bottom: 30px;
+}
+
+.icon {
+  padding: 10px;
+  background: springgreen;
+  color: #000;
+  min-width: 50px;
+  text-align: center;
+}
+
+.input-field {
+  width: 100%;
+  padding: 10px;
+  outline: none;
+}
+
+.input-field:focus {
+  background:green;
+}
+
+/* Set a style for the submit button */
+.btn {
+  background-color: springgreen;
+  color: #000;
+  padding: 15px 20px;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  font-size: 15px;
+}
+
+.btn:hover {
+  opacity: 1;
+}
+
+form{
+	max-width:500px;
+	margin:auto;
+}
+
+
+form.example input[type=text] {
+  padding: 10px;
+  font-size: 17px;
+  float: left;
+  width: 80%;
+  background: #000;
+}
+
+form.example button {
+  float: left;
+  width: 20%;
+  padding: 10px;
+  background: springgreen;
+  color: #000;
+  font-size: 17px;
+  border:none;
+  cursor: pointer;
+}
+
+form.example button:hover {
+  background: opacity:1;
+}
+
+form.example::after {
+  content: "";
+  clear: both;
+  display: table;
+}
