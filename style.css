@@ -100,15 +100,15 @@ width:100%;
 }
 
 .navbar{
-    overflow:hidden;
-    height:63px;
     position:fixed;
     top:0;
+    margin:0;
+    padding:10px;
+    width: 20%;
+    height: 20%;
   }
   
   .navbar a{
-    float:left;
-    display:block;
     color:#f2f2f2;
     text-align:center;
     padding:14px 16px;
@@ -488,18 +488,7 @@ width:100%;
     }
   }
   
-  @media(min-width:568px){
-    .navbar{display:none}
-
-    #side-menu ul{
-      text-decoration-style: none;
-      list-style-type: none;
-    }
-
-  }
-  
   @media(max-width:568px){
-    .navbar-nav{display:none}
     .main-nav{display:none}
 
     body{
@@ -546,4 +535,11 @@ width:100%;
       opacity: 1;
     }
 
+  }
+
+    
+  @media(min-width:568px){
+    .navbar{display:none}
+
+ 
   }
