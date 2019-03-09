@@ -22,6 +22,24 @@ max-height: 100vh;
   color: rgb(20, 37, 73);
 }
 
+#projects a{
+border: solid black 1px;
+height: 3em;
+width: 5em;
+text-decoration: none;
+display:flex;
+justify-content: center;
+align-items: center;
+margin: 4px auto;
+font-size: 1em;
+}
+
+#projects a:hover{
+  background: #000;
+  color: #fff;
+  transition: 0.5s;
+}
+
 
 .strike {
   text-decoration: line-through;
@@ -504,16 +522,7 @@ width:100%;
     }
 
     .animated{
-      font-family: Helvetica;
-      display:flex;
-      justify-content: center;
-      align-items: center;
-      flex-direction: row;
-      font-size: 20%;
-      margin: 110px 85px 0 0;
-      position: relative;
-      animation: ex 3s,moveBg 5s linear infinite;
-      -webkit-animation: ex 3s,moveBg 5s linear infinite;
+      display:none;
     }
 
     #icons{
