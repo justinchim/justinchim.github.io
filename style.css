@@ -1,52 +1,4 @@
-/*** Global ***/
-
-body{
-margin:0;
-padding:0;
-background: /*linear-gradient(
-    rgba(0, 0, 0, 0.3),
-    rgba(0, 0, 0, 0.3)
-  ), */ url(Banner.jpg) no-repeat;
-background-size:100%;
-height:100vh;
-width:100%;
-position: relative;
-background-attachment:fixed;
-background-position: center;
-background-color: #ebe9e9;
-max-height: 100vh;
-}
-
-#projects h4, a{
-  margin:50px 0 0 0;
-  color: rgb(20, 37, 73);
-}
-
-#projects a{
-border: solid black 1px;
-height: 3em;
-width: 5em;
-text-decoration: none;
-display:flex;
-justify-content: center;
-align-items: center;
-margin: 4px auto;
-font-size: 1em;
-}
-
-#projects a:hover{
-  background: #000;
-  color: #fff;
-  transition: 0.5s;
-}
-
-
-.strike {
-  text-decoration: line-through;
-}
-
-/*** Nav ***/
-
+/* Animations */
 .animated{
   font-family: Helvetica;
   display:flex;
@@ -106,6 +58,61 @@ font-size: 1em;
   border-radius: 40%;
 }
 
+
+
+/*** Global ***/
+
+body{
+margin:0;
+padding:0;
+background: /*linear-gradient(
+    rgba(0, 0, 0, 0.3),
+    rgba(0, 0, 0, 0.3)
+  ), */ url(Banner.jpg) no-repeat;
+background-size:100%;
+height:100vh;
+width:100%;
+position: relative;
+background-attachment:fixed;
+background-position: center;
+background-color: #ebe9e9;
+max-height: 100vh;
+}
+
+#projects h4, a{
+  margin:50px 0 0 0;
+  color: rgb(20, 37, 73);
+}
+
+#projects h1{
+  text-align: center;
+  font-size: 3em;
+}
+
+.button a{
+  border: solid black 1px;
+  height: 2em;
+  width: 4em;
+  text-decoration: none;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  margin: 4px auto;
+  font-size: 1em;
+}
+.button a:hover{
+  background: #000;
+  color: #fff;
+  transition: 0.5s;
+}
+
+
+.strike {
+  text-decoration: line-through;
+}
+
+/*** Nav ***/
+
 .text{
 color:rgba(11, 23, 131, 0.651);
 text-align: center;
@@ -118,56 +125,54 @@ width:100%;
 }
 
 .navbar{
-    position:fixed;
-    top:0;
-    margin:0;
-    padding:10px;
-    width: 20%;
-    height: 20%;
+  position:fixed;
+  top:0;
+  margin:0;
+  padding:10px;
+  width: 20%;
+  height: 20%;
   }
   
-  .navbar a{
-    color:#f2f2f2;
-    text-align:center;
-    padding:14px 16px;
-    text-decoration:none;
-    font-size:17px;
+.navbar a{
+  color:#f2f2f2;
+  text-align:center;
+  padding:14px 16px;
+  text-decoration:none;
+  font-size:17px;
   }
   
-  .navbar ul{
-    margin:8px 0 0 0;
-    list-style:none;
+.navbar ul{
+  margin:8px 0 0 0;
+  list-style:none;
   }
   
-  .side-nav{
-    height:100%;
-    width:0;
-    position:fixed;
-    z-index:1;
-    top:0;
-    left:0;
-    background-color:#111;
-    opacity:0.9;
-    overflow-x:hidden;
-    padding-top:60px;
-    transition:0.5s;
-  }
+.side-nav{
+  height:100%;
+  width:0;
+  position:fixed;
+  z-index:1;
+  top:0;
+  left:0;
+  background-color:#111;
+  opacity:0.9;
+  overflow-x:hidden;
+  padding-top:60px;
+  transition:0.5s;
+}
   
-  article img{
-    margin:0 auto;
+  
+article img{
+  margin:0 auto;
   }
-
   article{
     text-align: center;
   }
-
   article h1{
     font-family: "Courier New";
     font-size: 2em;
     color: rgb(23, 23, 68);
     font-weight: normal;
   }
-
   article ul{
     list-style-type: none;
     margin:0;
@@ -182,11 +187,9 @@ width:100%;
     display:block;
     transition:0.3s;
   }
-  
   .side-nav a:hover{
     color:#fff;
   }
-  
   .side-nav .btn-close{
     position:absolute;
     top:0;
@@ -211,13 +214,11 @@ width:100%;
     font-size: 20px;
     font-family: Helvetica;
   }
-
 .main-nav a{
     text-decoration: none;
     color:#000;
     opacity:0.4;
 }
-
   .main-nav a:hover{
     color:#909090;
     transition: 200ms;
@@ -226,17 +227,12 @@ width:100%;
     -webkit-transition-timing-function: ease-in-out;
 
   }
-
   .main-nav a:active{
     color:#fff;
   }
   
   .text2 h1{
     margin:0;
-  }
-
-  #projects{
-    text-align: center;
   }
 
   /*** Font Awesome ***/
@@ -490,7 +486,6 @@ width:100%;
       -webkit-animation: ex 3s,moveBg 5s linear infinite;
     }
   }
-
   @media(max-width:230px){
     .animated{
       font-family: Helvetica;
@@ -505,7 +500,6 @@ width:100%;
       -webkit-animation: ex 3s,moveBg 5s linear infinite;
     }
   }
-  
   @media(max-width:568px){
     .main-nav{display:none}
 
@@ -516,7 +510,6 @@ width:100%;
     #projects{
       margin-top:50vh;
     }
-
     #projects .text2{
       margin:0;
     }
