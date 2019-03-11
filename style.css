@@ -5,7 +5,7 @@
   justify-content: center;
   align-items: center;
   flex-direction: row;
-  font-size: 375%;
+  font-size: 5vw;
   height: 500px;
   margin: 280px 345px 0 0;
   position: relative;
@@ -76,7 +76,6 @@ position: relative;
 background-attachment:fixed;
 background-position: center;
 background-color: #ebe9e9;
-max-height: 100vh;
 }
 
 #projects h4, a{
@@ -321,7 +320,7 @@ article img{
        }
   }
 
-  @media(max-width:936px){
+  /*@media(max-width:936px){
     .animated{
       font-family: Helvetica;
       display:flex;
@@ -335,7 +334,7 @@ article img{
       -webkit-animation: ex 3s,moveBg 5s linear infinite;
     }
   }
-
+*/
   @media(max-width:768px){
     .animated{
       font-family: Helvetica;
@@ -343,14 +342,14 @@ article img{
       justify-content: center;
       align-items: center;
       flex-direction: row;
-      font-size: 34px;
-      margin: 300px 150px 0 0;
+      font-size: 32px;
+      margin: 180px 150px 0 0;
       position: relative;
       animation: ex 3s,moveBg 5s linear infinite;
       -webkit-animation: ex 3s,moveBg 5s linear infinite;
     }
   }
-
+/*
   @media(max-width:630px){
     .animated{
       font-family: Helvetica;
@@ -395,7 +394,7 @@ article img{
       -webkit-animation: ex 3s,moveBg 5s linear infinite;
     }
   }
-
+/*
   @media(max-width:470px){
     .animated{
       font-family: Helvetica;
@@ -500,6 +499,7 @@ article img{
       -webkit-animation: ex 3s,moveBg 5s linear infinite;
     }
   }
+*/
   @media(max-width:568px){
     .main-nav{display:none}
 
