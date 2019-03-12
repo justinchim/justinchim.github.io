@@ -76,6 +76,7 @@ position: relative;
 background-attachment:fixed;
 background-position: center;
 background-color: #ebe9e9;
+scroll-behavior: smooth;
 }
 
 #projects h4, a{
@@ -108,6 +109,18 @@ background-color: #ebe9e9;
 
 .strike {
   text-decoration: line-through;
+}
+
+.zoom {
+  transition: transform .5s;
+  width: 20%;
+  height: 20%;
+  margin: 0 auto;
+}
+.zoom:hover {
+  -ms-transform: scale(1.2); /* IE 9 */
+  -webkit-transform: scale(1.2); /* Safari 3-8 */
+  transform: scale(1.2); 
 }
 
 /*** Nav ***/
