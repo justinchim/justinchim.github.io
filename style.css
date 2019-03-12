@@ -18,6 +18,22 @@
   color:#000;
   }
 
+  .perk{
+    font-family: Helvetica, Arial, sans-serif;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    font-size: 2vw;
+    height: 500px;
+    margin: 280px 345px 0 0;
+    position: relative;
+    animation: perk 3s;
+    -webkit-animation: ex 3s;
+    animation-iteration-count: 1;
+    color:#000;
+    }
+
   @keyframes moveBg {
     0%{
       color:transparent;
@@ -33,6 +49,16 @@
     }
   }
   @keyframes ex {
+  0%{
+  opacity:0;
+  left:-200px;
+  }
+  100%{
+  left:0px;
+  }
+}
+
+@keyframes perk {
   0%{
   opacity:0;
   left:-200px;
@@ -278,12 +304,14 @@ article img{
 .footer{
   width:100%;
   height:10%;
-  bottom:0;
+  float:bottom;
   background:#000;
   color:#fff;
   opacity:0.8;
   overflow: hidden;
   text-align: center;
+  position: absolute;
+  bottom:0;
   }
 
 
@@ -515,6 +543,7 @@ article img{
 */
   @media(max-width:568px){
     .main-nav{display:none}
+    .perks{display:none}
 
     body{
 
@@ -549,7 +578,6 @@ article img{
     #icons:hover{
       opacity: 1;
     }
-
   }
 
     
