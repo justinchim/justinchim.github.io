@@ -304,16 +304,13 @@ article img{
 .footer{
   width:100%;
   height:10%;
-  float:bottom;
   background:#000;
   color:#fff;
   opacity:0.8;
   overflow: hidden;
   text-align: center;
-  position: absolute;
   bottom:0;
   }
-
 
   @media(max-width:900px){
     #projects{
@@ -577,6 +574,10 @@ article img{
 
     #icons:hover{
       opacity: 1;
+    }
+
+    .footer{
+      position: absolute;
     }
   }
 
