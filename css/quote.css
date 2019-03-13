@@ -1,0 +1,136 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+html, body { 
+  height: 100vh;
+  width: 100vw;
+  background: rgb(16, 12, 22);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#display {
+  color: white;
+  font-size: 2em;
+  opacity: 0.7;
+  line-height: 80px;
+}
+
+#date {
+  color: white;
+  font-size: 1.3em;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: normal;
+  letter-spacing: 0.3em;
+  opacity: 0.5
+}
+#line {
+  width: 100%;
+  bottom: 4em;
+  position: fixed;
+  border-bottom: solid white;
+  padding: 15px;
+  opacity: 0.5;
+  filter: alpha(opacity=50); /* For IE8 and earlier */
+}
+
+.navbar {
+  position: fixed;
+  width: 100%;
+  opacity: 0.6;
+  filter: alpha(opacity=60); /* For IE8 and earlier */
+}
+
+span {
+  border-radius: 100px;
+  opacity: 0.75;
+  filter: alpha(opacity=75); /* For IE8 and earlier */
+}
+
+#content {
+  height: 35vh;
+} p {
+  max-width: 30em;
+  color: white;
+  font-family: Georgia, Times, serif;
+  letter-spacing:0.1em;
+  text-align:center;
+  margin: 40px auto;
+  text-transform: lowercase;
+  line-height: 145%;
+  font-size: 2em;
+  font-variant: small-caps;
+}
+
+.container {
+  padding-top: 6em;
+  text-align: center;
+}
+
+#b-nav {
+  padding-bottom: 5em;
+  top:50vh;
+}
+
+#b-nav ul {
+  margin: 0;
+  padding: 0.5em;
+  list-style-type: none;
+  text-align: center;
+}
+
+#b-nav ul li {
+  display: inline;
+}
+
+#b-nav ul li a {
+  text-decoration: none;
+  padding: .2em 1em;
+  background-color: black;
+  filter: alpha(opacity=40); /* For IE8 and earlier */
+}
+
+.hold {
+  width: 100%;
+  text-align: left;
+}
+
+#gen {
+  outline: none;
+  padding-top: 5px;
+  text-decoration: none;
+  background-color: black;
+  color: white;
+  height: 42px;
+  width: 105px;
+  transition: 0.2s;
+  padding-bottom: 5px;
+}
+
+#gen:hover {
+  background-color: white;
+  color: black;
+  opacity: 0.8;
+  cursor: pointer;
+}
+
+#gen a {
+  text-decoration: none;
+}
+
+#date {
+  color: white;
+}
+
+@media screen 
+ and (max-device-width: 800px) 
+  and (max-device-height: 640px) 
+  and (-webkit-device-pixel-ratio: 2) 
+  and (orientation: portrait) {
+    p {
+      font-size: 1em;
+    }
+}
