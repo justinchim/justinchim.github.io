@@ -333,18 +333,12 @@ article img{
 
 .fa-linkedin {
   background: rgb(24, 122, 235);
-  color: white;
   padding:10px 5px;
 }
 
 .fa-github {
   background: #37e640;
-  color: white;
   padding:10px 5px;
-}
-
-.fa-envelope {
-  padding:0 0 20px 5px;
 }
 
 /*** Footer ***/
@@ -620,10 +614,6 @@ article img{
     .perks{display:none}
     .glow{display:none}
 
-    body{
-
-    }
-
     #projects{
       margin-top:50vh;
     }
@@ -640,18 +630,25 @@ article img{
       position:fixed;
       z-index: 1;
       left:0;
-      opacity: 0.6;
+      opacity: 0.3;
+      transition: 1s;
     }
 
     .fa {
-      width: 10px;
+      width: 0.5em;
       height: 5px;
       text-decoration: none;
-      margin-top: 36px;
+      margin-top: 2em;
     }
 
-    #icons:hover{
+    #icons a:hover{
       opacity: 1;
+    }
+
+   #icons .fa{
+      color: rgb(46, 44, 44);
+      height: 0.4em;
+      width: 0.4em;
     }
 
     .footer{
