@@ -18,15 +18,13 @@
   color:#000;
   }
 
-  .perk{
+  .perks{
     font-family: Helvetica, Arial, sans-serif;
     display:flex;
     justify-content: center;
     align-items: center;
     flex-direction: row;
-    font-size: 2vw;
-    height: 500px;
-    margin: 280px 345px 0 0;
+    font-size: 0.4em;
     position: relative;
     animation: perk 3s;
     -webkit-animation: ex 3s;
@@ -84,9 +82,15 @@
   font-size: 19.5em;
   color: rgba(255, 255, 255, 0);
   text-align: center;
-  -webkit-animation: glow 1.5s ease-in-out infinite alternate;
-  -moz-animation: glow 1.5s ease-in-out infinite alternate;
-  animation: glow 1.5s ease-in-out infinite alternate;
+  -webkit-animation: glow 1.5s cubic-bezier(0.3, 0.2, 1.0, 0.4) infinite alternate;
+  -moz-animation: glow 1.5s cubic-bezier(0.3, 0.2, 1.0, 0.4) infinite alternate;
+  animation: glow 1.5s cubic-bezier(0.3, 0.2, 1.0, 0.4) infinite alternate;
+}
+
+@keyframes glow {
+  from {
+    text-shadow: 0 0 50px #ecdb3b, 0 0 60px #ecdb3b, 0 0 120px #ecdb3b;
+  }
 }
 
 @-webkit-keyframes glow {
@@ -160,9 +164,6 @@ scroll-behavior: smooth;
   -ms-transform: scale(1.2); /* IE 9 */
   -webkit-transform: scale(1.2); /* Safari 3-8 */
   transform: scale(1.2); 
-}
-
-.container{
 }
 
 /*** Nav ***/
@@ -259,7 +260,8 @@ article img{
     width: 9em;
     height: 100%;
     text-align: center;
-    padding-top:10vh;
+    padding-top:5vh;
+    opacity:0.3;
   }
 
  .main-nav li{
@@ -274,12 +276,12 @@ article img{
     opacity:0.4;
 }
   .main-nav a:hover{
-    color:#909090;
+    color:#242424;
     transition: 200ms;
     transition-timing-function: ease-in-out;
     -webkit-transition: 200ms;
     -webkit-transition-timing-function: ease-in-out;
-
+    opacity: 1;
   }
   .main-nav a:active{
     color:#fff;
@@ -292,10 +294,10 @@ article img{
   }
 
   .nav-link::after {
-    transition: 300ms;
+    transition: 500ms;
     content: "";
     position: relative;
-    border-right: 5px solid black;
+    border-right: 2px solid black;
   }
 
 
@@ -309,7 +311,7 @@ article img{
   height: 2em;
   width: 4vh;
   opacity: 1;
-  margin: 0.3em;
+  margin: 0.6em;
 }
 
 
@@ -318,8 +320,6 @@ article img{
   }
 
   /*** Font Awesome ***/
-
-  /* Style all font awesome icons */
 .fa {
   width: 20px;
   height: 10px;
@@ -327,9 +327,8 @@ article img{
   margin-top: 36px;
 }
 
-/* Add a hover effect if you want */
 .fa:hover {
-  opacity: 0.7;
+  opacity: 1;
 }
 
 .fa-linkedin {
@@ -344,16 +343,21 @@ article img{
   padding:10px 5px;
 }
 
+.fa-envelope {
+  padding:0 0 20px 5px;
+}
+
 /*** Footer ***/
 .footer{
   width:100%;
-  height:10%;
+  height:2em;
   background:#000;
   color:#fff;
   opacity:0.8;
   overflow: hidden;
   text-align: center;
   bottom:0;
+  padding: 1em 0 0 0;
   }
 
   @media(max-width:900px){
